@@ -53,6 +53,7 @@ TH_MARGIN_MID = 15       # 15%以上 → +1点
 RANGE_DAYS = 60          # 「直近レンジ」の日数(営業日)
 NEAR_TOP = 0.95          # 平均取得単価が直近レンジ高値の95%以上 → 上限付近
 
+VERSION = 4   # 画面アプリ側が「jp_overhead.pyが古い」を検知するための番号
 JPX_PAGE = "https://www.jpx.co.jp/markets/statistics-equities/margin/01.html"
 UA = {"User-Agent": "Mozilla/5.0 (jp_overhead)"}
 
